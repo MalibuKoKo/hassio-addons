@@ -5,7 +5,7 @@
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",
-  "gpio": true,
+  "gpio": false,
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
